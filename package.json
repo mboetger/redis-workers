@@ -1,0 +1,16 @@
+{
+  "name": "redis-workers",
+  "version": "0.0.1",
+  "description": "Using foreman to run multiple redis queue workers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "hiredis": "0.1.15",
+    "redis": "0.8.3"
+  }
+}
