@@ -4,7 +4,7 @@ var redis = require("redis"),
 
     client1.on("subscribe", function (channel, count) {
        setInterval(function() {
-            client2.publish(process.env.REDIS_CHANNEL, "Booyah");
+            client2.publish(process.env.REDIS_CHANNEL, "Ping Message");
         }, Math.floor(Math.random()*101));
     });
     

@@ -1,7 +1,7 @@
 .nide
 *.env
-node_modules/
-local/
-bin/
-include/
-lib/
+node_modules
+local
+bin
+include
+lib

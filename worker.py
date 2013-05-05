@@ -9,6 +9,5 @@ while(True):
     print "Listening"
     messages = pubsub.listen()
     if (messages is not None):
-        print "WTF"
         for message in messages:
             print(message['data'])

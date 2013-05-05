@@ -6,5 +6,4 @@ var redis = require("redis"),
         console.log( channel + ": " + message);
     });
 
-    client1.incr("did a thing");
     client1.subscribe(process.env.REDIS_CHANNEL);
