@@ -1,1 +1,0 @@
-/home/pi/dev/node-herd/distribute_setup.py

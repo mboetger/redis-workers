@@ -1,1 +1,0 @@
-/home/pi/dev/node-herd/get-pip.py
